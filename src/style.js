@@ -1,5 +1,3 @@
-import {Platform} from 'react-native';
-
 export const foregroundColor = '#ffffff';
 export const backgroundColor = '#f4f4f4';
 export const separatorColor = '#e8e9ec';
@@ -14,7 +12,9 @@ export const textLinkColor = '#00adf5';
 export const textSecondaryColor = '#7a92a5';
 
 export const textDayFontFamily = 'System';
+export const textDayFontWeight = null;
 export const textMonthFontFamily = 'System';
+export const textMonthFontWeight = null;
 export const textDayHeaderFontFamily = 'System';
 
 export const textDayFontSize = 16;
@@ -35,4 +35,4 @@ export const monthTextColor = textDefaultColor;
 export const agendaDayTextColor = '#7a92a5';
 export const agendaDayNumColor = '#7a92a5';
 export const agendaTodayColor = textLinkColor;
-export const agendaKnobColor = Platform.OS === 'ios' ? '#f2F4f5' : '#4ac4f7';
+export const agendaKnobColor = '#f2F4f5';
