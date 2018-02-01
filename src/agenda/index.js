@@ -115,9 +115,6 @@ export default class AgendaView extends Component {
   }
 
   initialScrollPadPosition() {
-    if (this.props.isDefaultViewCalendar) {
-      return 0;
-    }
     return Math.max(0, this.viewHeight - HEADER_HEIGHT);
   }
 
