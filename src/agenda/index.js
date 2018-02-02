@@ -77,7 +77,9 @@ export default class AgendaView extends Component {
     // Hide knob button. Default = false
     hideKnob: PropTypes.bool,
     // Month format in calendar title. Formatting values: http://arshaw.com/xdate/#Formatting
-    monthFormat: PropTypes.string
+    monthFormat: PropTypes.string,
+
+    isDefaultViewCalendar: PropTypes.any
   };
 
   constructor(props) {
@@ -124,7 +126,7 @@ export default class AgendaView extends Component {
     // When user touches knob, the actual component that receives touch events is a ScrollView.
     // It needs to be scrolled to the bottom, so that when user moves finger downwards,
     // scroll position actually changes (it would stay at 0, when scrolled to the top).
-    this.setScrollPadPosition(this.initialScrollPadPosition(), false);
+    this.setScrollPadPosition(this.props.isDefaultViewCalendar ? 0 : this.initialScrollPadPosition(), false);
     // delay rendering calendar in full height because otherwise it still flickers sometimes
     setTimeout(() => this.setState({calendarIsReady: true}), 0);
   }
