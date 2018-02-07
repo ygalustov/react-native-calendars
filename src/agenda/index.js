@@ -134,7 +134,11 @@ export default class AgendaView extends Component {
   onLayout(event) {
     this.viewHeight = event.nativeEvent.layout.height;
     this.viewWidth = event.nativeEvent.layout.width;
-    this.calendar.scrollToDay(this.state.selectedDay.clone(), this.calendarOffset(), false);
+    if (this.props.isDefaultViewCalendar) {
+      this.calendar.scrollToDay(this.state.selectedDay.clone().setDate(1), 0, false);
+    } else {
+      this.calendar.scrollToDay(this.state.selectedDay.clone(), this.calendarOffset(), false);
+    }
     this.forceUpdate();
   }
 
