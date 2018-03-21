@@ -68,6 +68,8 @@ class Calendar extends Component {
     disabledByDefault: PropTypes.bool,
     // Show week numbers. Default = false
     showWeekNumbers: PropTypes.bool,
+    disableMonthSwitch: PropTypes.bool
+
   };
 
   constructor(props) {
@@ -95,6 +97,11 @@ class Calendar extends Component {
       this.setState({
         currentMonth: current.clone()
       });
+    }
+
+    if (this.props.disableMonthSwitch !== nextProps.disableMonthSwitch) {
+      this.forceUpdate();
+
     }
   }
 
@@ -247,6 +254,7 @@ class Calendar extends Component {
           monthFormat={this.props.monthFormat}
           hideDayNames={this.props.hideDayNames}
           weekNumbers={this.props.showWeekNumbers}
+          disableMonthSwitch={this.props.disableMonthSwitch}
         />
         {weeks}
       </View>);
