@@ -8,12 +8,12 @@ export default function platformStyles(appStyle) {
       backgroundColor: appStyle.agendaKnobColor
     },
     weekdays: {
-      position: 'absolute',
+      position: "absolute",
       left: 0,
       right: 0,
       top: 0,
-      flexDirection: 'row',
-      justifyContent: 'space-around',
+      flexDirection: "row",
+      justifyContent: "space-around",
       marginLeft: 15,
       marginRight: 15,
       paddingTop: 15,

@@ -16,7 +16,8 @@ class CalendarHeader extends Component {
     firstDay: PropTypes.number,
     renderArrow: PropTypes.func,
     hideDayNames: PropTypes.bool,
-    weekNumbers: PropTypes.bool
+    weekNumbers: PropTypes.bool,
+    disableMonthSwitch: PropTypes.bool
   };
 
   constructor(props) {
@@ -41,10 +42,12 @@ class CalendarHeader extends Component {
     ) {
       return true;
     }
-    if (nextProps.showIndicator !== this.props.showIndicator) {
-      return true;
+
+    if (this.props.disableMonthSwitch !== nextProps.disableMonthSwitch) {
+      return true
     }
-    if (nextProps.hideDayNames !== this.props.hideDayNames) {
+
+    if (nextProps.showIndicator !== this.props.showIndicator) {
       return true;
     }
     return false;
@@ -59,7 +62,7 @@ class CalendarHeader extends Component {
         <TouchableOpacity
           onPress={this.substractMonth}
           style={this.style.arrow}
-        >
+          disabled={this.props.disableMonthSwitch}>
           {this.props.renderArrow
             ? this.props.renderArrow('left')
             : <Image
@@ -69,7 +72,10 @@ class CalendarHeader extends Component {
         </TouchableOpacity>
       );
       rightArrow = (
-        <TouchableOpacity onPress={this.addMonth} style={this.style.arrow}>
+        <TouchableOpacity
+            onPress={this.addMonth}
+            style={this.style.arrow}
+            disabled={this.props.disableMonthSwitch}>
           {this.props.renderArrow
             ? this.props.renderArrow('right')
             : <Image
@@ -88,7 +94,7 @@ class CalendarHeader extends Component {
         <View style={this.style.header}>
           {leftArrow}
           <View style={{ flexDirection: 'row' }}>
-            <Text allowFontScaling={false} style={this.style.monthText}>
+            <Text style={this.props.disableMonthSwitch ? this.style.blockedMonthText: this.style.monthText}>
               {this.props.month.toString(this.props.monthFormat ? this.props.monthFormat : 'MMMM yyyy')}
             </Text>
             {indicator}
@@ -98,9 +104,9 @@ class CalendarHeader extends Component {
         {
           !this.props.hideDayNames &&
           <View style={this.style.week}>
-            {this.props.weekNumbers && <Text allowFontScaling={false} style={this.style.dayHeader}></Text>}
+            {this.props.weekNumbers && <Text style={this.style.dayHeader}></Text>}
             {weekDaysNames.map((day, idx) => (
-              <Text allowFontScaling={false} key={idx} style={this.style.dayHeader} numberOfLines={1}>{day}</Text>
+              <Text key={idx} style={this.style.dayHeader} numberOfLines={1}>{day}</Text>
             ))}
           </View>
         }

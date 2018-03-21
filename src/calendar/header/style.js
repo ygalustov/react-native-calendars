@@ -20,6 +20,13 @@ export default function(theme={}) {
       color: appStyle.monthTextColor,
       margin: 10
     },
+    blockedMonthText: {
+      fontSize: appStyle.textMonthFontSize,
+      fontFamily: appStyle.textMonthFontFamily,
+      fontWeight: appStyle.textMonthFontWeight,
+      color: appStyle.blockedMonthTextColor,
+      margin: 10
+    },
     arrow: {
       padding: 10
     },

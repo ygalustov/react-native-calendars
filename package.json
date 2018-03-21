@@ -1,31 +1,95 @@
 {
-  "name": "react-native-calendars",
-  "version": "1.16.1",
-  "main": "src/index.js",
-  "description": "React Native Calendar Components",
-  "scripts": {
-    "test": "jasmine src/*.spec.js && npm run lint",
-    "lint": "eslint src/ example/src"
+  "_args": [
+    [
+      {
+        "raw": "react-native-calendars@git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+        "scope": null,
+        "escapedName": "react-native-calendars",
+        "name": "react-native-calendars",
+        "rawSpec": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+        "spec": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+          "sshUrl": "git+ssh://git@github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+          "httpsUrl": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+          "gitUrl": "git://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+          "shortcut": "github:ygalustov/react-native-calendars#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+          "directUrl": "https://raw.githubusercontent.com/ygalustov/react-native-calendars/159ba81dd834fd417ed8ffb62dcaaf104aaae853/package.json"
+        }
+      },
+      "/Users/andersen/Documents/Andersen/humanforce.app"
+    ]
+  ],
+  "_from": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+  "_id": "react-native-calendars@1.16.1",
+  "_inCache": true,
+  "_location": "/react-native-calendars",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-calendars@git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+    "scope": null,
+    "escapedName": "react-native-calendars",
+    "name": "react-native-calendars",
+    "rawSpec": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+    "spec": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+      "sshUrl": "git+ssh://git@github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+      "httpsUrl": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+      "gitUrl": "git://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+      "shortcut": "github:ygalustov/react-native-calendars#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+      "directUrl": "https://raw.githubusercontent.com/ygalustov/react-native-calendars/159ba81dd834fd417ed8ffb62dcaaf104aaae853/package.json"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wix/react-native-calendars"
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+  "_shasum": "79970ccfbec7005e873759fce054f28b41107d41",
+  "_shrinkwrap": null,
+  "_spec": "react-native-calendars@git+https://github.com/ygalustov/react-native-calendars.git#159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+  "_where": "/Users/andersen/Documents/Andersen/humanforce.app",
+  "author": {
+    "name": "Wix.com"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "bugs": {
+    "url": "https://github.com/wix/react-native-calendars/issues"
   },
-  "author": "Wix.com",
-  "license": "MIT",
   "dependencies": {
     "prop-types": "^15.5.10",
     "xdate": "^0.8.0"
   },
+  "description": "React Native Calendar Components",
   "devDependencies": {
-    "eslint": "^3.19.0",
     "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
     "eslint-plugin-react": "^7.0.0",
     "jasmine": "^2.5.2",
     "react": "16.0.0-alpha.12",
     "react-native": "0.47.2"
-  }
+  },
+  "gitHead": "159ba81dd834fd417ed8ffb62dcaaf104aaae853",
+  "homepage": "https://github.com/wix/react-native-calendars#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "react-native-calendars",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "readme": "# React Native Calendars ✨ 🗓️ 📆\n[![NPM Version](https://img.shields.io/npm/v/react-native-calendars.svg?style=flat)](https://www.npmjs.com/package/react-native-calendars)\n[![Build Status](https://travis-ci.org/wix/react-native-calendars.svg?branch=master)](https://travis-ci.org/wix/react-native-calendars)\n\nThis module includes various customizable react native calendar components.\n\nThe package is both **Android** and **iOS** compatible.\n\n## Try it out\n\nYou can run example module by performing these steps:\n\n```\n$ git clone git@github.com:wix/react-native-calendars.git\n$ cd react-native-calendars/example\n$ npm install\n$ react-native run-ios\n```\n\nYou can check example screens source code in [example module screens](https://github.com/wix-private/wix-react-native-calendar/tree/master/example/src/screens)\n\nThis project is compatible with Expo/CRNA (without ejecting), and the examples have been [published on Expo](https://expo.io/@community/react-native-calendars-example)\n\n## Installation\n\n```\n$ npm install --save react-native-calendars\n```\n\nThe solution is implemented in JavaScript so no native module linking is required.\n\n## Usage\n\n`import {` [Calendar](#calendar), [CalendarList](#calendarlist), [Agenda](#agenda) `} from 'react-native-calendars';`\n\nAll parameters for components are optional. By default the month of current local date will be displayed.\n\nEvent handler callbacks are called with `calendar objects` like this:\n\n```javasctipt\n{\n  day: 1,     // day of month (1-31)\n  month: 1,   // month of year (1-12)\n  year: 2017, // year\n  timestamp,   // UTC timestamp representing 00:00 AM of this date\n  dateString: '2016-05-13' // date formatted as 'YYYY-MM-DD' string\n}\n```\n\nParameters that require date types accept YYYY-MM-DD formated datestrings, JavaScript date objects, `calendar objects` and UTC timestamps.\n\nCalendars can be localized by adding custom locales to `LocaleConfig` object:\n\n```javascript\nimport {LocaleConfig} from 'react-native-calendars';\n\nLocaleConfig.locales['fr'] = {\n  monthNames: ['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'],\n  monthNamesShort: ['Janv.','Févr.','Mars','Avril','Mai','Juin','Juil.','Août','Sept.','Oct.','Nov.','Déc.'],\n  dayNames: ['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'],\n  dayNamesShort: ['Dim.','Lun.','Mar.','Mer.','Jeu.','Ven.','Sam.']\n};\n\nLocaleConfig.defaultLocale = 'fr';\n```\n\n### Calendar\n\n<kbd>\n  <img src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/calendar.gif?raw=true\">\n</kbd>\n\n#### Basic parameters\n\n```javascript\n<Calendar\n  // Initially visible month. Default = Date()\n  current={'2012-03-01'}\n  // Minimum date that can be selected, dates before minDate will be grayed out. Default = undefined\n  minDate={'2012-05-10'}\n  // Maximum date that can be selected, dates after maxDate will be grayed out. Default = undefined\n  maxDate={'2012-05-30'}\n  // Handler which gets executed on day press. Default = undefined\n  onDayPress={(day) => {console.log('selected day', day)}}\n  // Month format in calendar title. Formatting values: http://arshaw.com/xdate/#Formatting\n  monthFormat={'yyyy MM'}\n  // Handler which gets executed when visible month changes in calendar. Default = undefined\n  onMonthChange={(month) => {console.log('month changed', month)}}\n  // Hide month navigation arrows. Default = false\n  hideArrows={true}\n  // Replace default arrows with custom ones (direction can be 'left' or 'right')\n  renderArrow={(direction) => (<Arrow />)}\n  // Do not show days of other months in month page. Default = false\n  hideExtraDays={true}\n  // If hideArrows=false and hideExtraDays=false do not switch month when tapping on greyed out\n  // day from another month that is visible in calendar page. Default = false\n  disableMonthChange={true}\n  // If firstDay=1 week starts from Monday. Note that dayNames and dayNamesShort should still start from Sunday.\n  firstDay={1}\n  // Hide day names. Default = false\n  hideDayNames={true}\n  // Show week numbers to the left. Default = false\n  showWeekNumbers={true}\n/>\n```\n\n#### Date marking\n\n**!Disclaimer!** Make sure that `markedDates` param is immutable. If you change `markedDates` object content but the reference to it does not change calendar update will not be triggered.\n\nDot marking\n\n<kbd>\n  <img height=50 src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/marking1.png?raw=true\">\n</kbd>\n\n```javascript\n<Calendar\n  // Collection of dates that have to be marked. Default = {}\n  markedDates={{\n    '2012-05-16': {selected: true, marked: true},\n    '2012-05-17': {marked: true},\n    '2012-05-18': {marked: true, dotColor: 'red'},\n    '2012-05-19': {disabled: true}\n  }}\n/>\n```\n\nYou can customise a dot color for each day independently.\n\nMulti-Dot marking\n\n<kbd>\n <img height=50 src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/marking4.png?raw=true\">\n</kbd>\n\nUse markingType = 'multi-dot' if you want to display more than one dot. Both the Calendar and CalendarList control support multiple dots by using 'dots' array in markedDates. The properties 'key' and 'color' are mandatory while 'selectedColor' is optional. If selectedColor is omitted then 'color' will be used for selected dates.\n```javascript\nconst vacation = {key:'vacation', color: 'red', selectedColor: 'blue'};\nconst massage = {key:'massage', color: 'blue', selectedColor: 'blue'};\nconst workout = {key:'workout', color: 'green'};\n\n<Calendar\n  markedDates={{\n    '2017-10-25': {dots: [vacation, massage, workout], selected: true},\n    '2017-10-26': {dots: [massage, workout], disabled: true},\n  }},\n  markingType={'multi-dot'}\n/>\n```\n\n\nPeriod marking\n\n<kbd>\n  <img height=50 src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/marking2.png?raw=true\">\n</kbd>\n\n<kbd>\n  <img height=50 src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/marking3.png?raw=true\">\n</kbd>\n\n```javascript\n<Calendar\n  // Collection of dates that have to be colored in a special way. Default = {}\n   markedDates={\n    {'2012-05-20': {textColor: 'green'},\n     '2012-05-22': {startingDay: true, color: 'green'},\n     '2012-05-23': {selected: true, endingDay: true, color: 'green', textColor: 'gray'},\n     '2012-05-04': {disabled: true, startingDay: true, color: 'green', endingDay: true}\n    }}\n  // Date marking style [simple/period/multi-dot]. Default = 'simple'\n  markingType={'period'}\n/>\n```\n\nKeep in mind that different marking types are not compatible. You can use just one marking style for calendar.\n\n#### Displaying data loading indicator\n\n<kbd>\n  <img height=50 src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/loader.png?raw=true\">\n</kbd>\n\nThe loading indicator next to month name will be displayed if `<Calendar />` has `displayLoadingIndicator` property and `markedDays` collection does not have a value for every day of the month in question. When you load data for days, just set `[]` or special marking value to all days in `markedDates` collection.\n\n#### Customizing look & feel\n\n```javascript\n<Calendar\n  // Specify style for calendar container element. Default = {}\n  style={{\n    borderWidth: 1,\n    borderColor: 'gray',\n    height: 350\n  }}\n  // Specify theme properties to override specific styles for calendar parts. Default = {}\n  theme={{\n    backgroundColor: '#ffffff',\n    calendarBackground: '#ffffff',\n    textSectionTitleColor: '#b6c1cd',\n    selectedDayBackgroundColor: '#00adf5',\n    selectedDayTextColor: '#ffffff',\n    todayTextColor: '#00adf5',\n    dayTextColor: '#2d4150',\n    textDisabledColor: '#d9e1e8',\n    dotColor: '#00adf5',\n    selectedDotColor: '#ffffff',\n    arrowColor: 'orange',\n    monthTextColor: 'blue',\n    textDayFontFamily: 'monospace',\n    textMonthFontFamily: 'monospace',\n    textDayHeaderFontFamily: 'monospace',\n    textDayFontSize: 16,\n    textMonthFontSize: 16,\n    textDayHeaderFontSize: 16\n  }}\n/>\n```\n\n#### Advanced styling\n\nIf you want to have complete control over calendar styles you can do it by overriding default style.js files. For example, if you want to override calendar header style first you have to find stylesheet id for this file:\n\nhttps://github.com/wix/react-native-calendars/blob/master/src/calendar/header/style.js#L4\n\nIn this case it is 'stylesheet.calendar.header'. Next you can add overriding stylesheet to your theme with this id.\n\nhttps://github.com/wix/react-native-calendars/blob/master/example/src/screens/calendars.js#L56\n\n```javascript\ntheme={{\n  arrowColor: 'white',\n  'stylesheet.calendar.header': {\n    week: {\n      marginTop: 5,\n      flexDirection: 'row',\n      justifyContent: 'space-between'\n    }\n  }\n}}\n```\n\n**Disclaimer**: issues that arise because something breaks after using stylesheet override will not be supported. Use this option at your own risk.\n\n#### Overriding day component\n\nIf you need custom functionality not supported by current day component implementations you can pass your own custom day\ncomponent to the calendar.\n\n```javascript\n<Calendar\n  style={[styles.calendar, {height: 300}]}\n  dayComponent={({date, state}) => {\n    return (<View style={{flex: 1}}><Text style={{textAlign: 'center', color: state === 'disabled' ? 'gray' : 'black'}}>{date.day}</Text></View>);\n  }}\n/>\n```\n\nThe dayComponent prop has to receive a RN component or function that receive props. The day component will receive such props:\n\n* state - disabled if the day should be disabled (this is decided by base calendar component)\n* marking - markedDates value for this day\n* date - the date object representing this day\n\n**Tip:** Don't forget to implement shouldComponentUpdate for your custom day component to make calendar perform better\n\nIf you implement an awesome day component please make a PR so that other people could use it :)\n\n### CalendarList\n\n<kbd>\n  <img src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/calendar-list.gif?raw=true\">\n</kbd>\n\n`<CalendarList />` is scrollable semi-infinite calendar composed of `<Calendar />` components. Currently it is possible to scroll 4 years back and 4 years to the future. All paramters that are available for `<Calendar />` are also available for this component. There are also some additional params that can be used:\n\n```javascript\n<CalendarList\n  // Callback which gets executed when visible months change in scroll view. Default = undefined\n  onVisibleMonthsChange={(months) => {console.log('now these months are visible', months);}}\n  // Max amount of months allowed to scroll to the past. Default = 50\n  pastScrollRange={50}\n  // Max amount of months allowed to scroll to the future. Default = 50\n  futureScrollRange={50}\n  // Enable or disable scrolling of calendar list\n  scrollEnabled={true}\n  // Enable or disable vertical scroll indicator. Default = false\n  showScrollIndicator={true}\n  ...calendarParams\n/>\n```\n\n### Agenda\n<kbd>\n  <img src=\"https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/agenda.gif?raw=true\">\n</kbd>\n\nAn advanced agenda component that can display interactive listings for calendar day items.\n\n```javascript\n<Agenda\n  // the list of items that have to be displayed in agenda. If you want to render item as empty date\n  // the value of date key kas to be an empty array []. If there exists no value for date key it is\n  // considered that the date in question is not yet loaded\n  items={\n    {'2012-05-22': [{text: 'item 1 - any js object'}],\n     '2012-05-23': [{text: 'item 2 - any js object'}],\n     '2012-05-24': [],\n     '2012-05-25': [{text: 'item 3 - any js object'},{text: 'any js object'}],\n    }}\n  // callback that gets called when items for a certain month should be loaded (month became visible)\n  loadItemsForMonth={(month) => {console.log('trigger items loading')}}\n  // callback that fires when the calendar is opened or closed\n  onCalendarToggled={(calendarOpened) => {console.log(calendarOpened)}}\n  // callback that gets called on day press\n  onDayPress={(day)=>{console.log('day pressed')}}\n  // callback that gets called when day changes while scrolling agenda list\n  onDayChange={(day)=>{console.log('day changed')}}\n  // initially selected day\n  selected={'2012-05-16'}\n  // Minimum date that can be selected, dates before minDate will be grayed out. Default = undefined\n  minDate={'2012-05-10'}\n  // Maximum date that can be selected, dates after maxDate will be grayed out. Default = undefined\n  maxDate={'2012-05-30'}\n  // Max amount of months allowed to scroll to the past. Default = 50\n  pastScrollRange={50}\n  // Max amount of months allowed to scroll to the future. Default = 50\n  futureScrollRange={50}\n  // specify how each item should be rendered in agenda\n  renderItem={(item, firstItemInDay) => {return (<View />);}}\n  // specify how each date should be rendered. day can be undefined if the item is not first in that day.\n  renderDay={(day, item) => {return (<View />);}}\n  // specify how empty date content with no items should be rendered\n  renderEmptyDate={() => {return (<View />);}}\n  // specify how agenda knob should look like\n  renderKnob={() => {return (<View />);}}\n  // specify what should be rendered instead of ActivityIndicator\n  renderEmptyData = {() => {return (<View />);}}\n  // specify your item comparison function for increased performance\n  rowHasChanged={(r1, r2) => {return r1.text !== r2.text}}\n  // Hide knob button. Default = false\n  hideKnob={true}\n  // By default, agenda dates are marked if they have at least one item, but you can override this if needed\n  markedDates={{\n    '2012-05-16': {selected: true, marked: true},\n    '2012-05-17': {marked: true},\n    '2012-05-18': {disabled: true}\n  }}\n  // agenda theme\n  theme={{\n    ...calendarTheme,\n    agendaDayTextColor: 'yellow',\n    agendaDayNumColor: 'green',\n    agendaTodayColor: 'red',\n    agendaKnobColor: 'blue'\n  }}\n  // agenda container style\n  style={{}}\n/>\n```\n\n## Authors\n\n* [Tautvilas Mecinskas](https://github.com/tautvilas/) - Initial code - [@tautvilas](https://twitter.com/TautviIas)\n* Katrin Zotchev - Initial design - [@katrin_zot](https://twitter.com/katrin_zot)\n\nSee also the list of [contributors](https://github.com/wix/react-native-calendar-components/contributors) who participated in this project.\n\n## Contributing\n\nPull requests are welcome. `npm run test` and `npm run lint` before push.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/react-native-calendars.git"
+  },
+  "scripts": {
+    "lint": "eslint src/ example/src",
+    "test": "jasmine src/*.spec.js && npm run lint"
+  },
+  "version": "1.16.1"
 }
