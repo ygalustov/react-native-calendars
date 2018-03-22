@@ -63,7 +63,7 @@ class CalendarHeader extends Component {
         <TouchableOpacity
           onPress={this.substractMonth}
           style={this.style.arrow}
-          disabled={this.props.disableMonthSwitch}>
+          disabled={this.props.disableMonthSwitch}
         >
           {this.props.renderArrow
             ? this.props.renderArrow('left')
