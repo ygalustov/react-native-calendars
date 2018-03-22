@@ -32,6 +32,7 @@ export const dotColor = textLinkColor;
 export const selectedDotColor = foregroundColor;
 export const arrowColor = textLinkColor;
 export const monthTextColor = textDefaultColor;
+export const blockedMonthTextColor = "#c2c0c2";
 export const agendaDayTextColor = '#7a92a5';
 export const agendaDayNumColor = '#7a92a5';
 export const agendaTodayColor = textLinkColor;
